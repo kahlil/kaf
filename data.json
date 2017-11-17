@@ -1,0 +1,2381 @@
+{
+  "meta": { "code": 200, "requestId": "5a0ed6cedb04f50a82c4778a" },
+  "response": {
+    "suggestedFilters": { "header": "Tap to show:", "filters": [{ "name": "Open now", "key": "openNow" }] },
+    "suggestedRadius": 812,
+    "headerLocation": "Mitte",
+    "headerFullLocation": "Mitte, Berlin",
+    "headerLocationGranularity": "neighborhood",
+    "query": "coffee",
+    "totalResults": 70,
+    "suggestedBounds": {
+      "ne": { "lat": 52.527399971530905, "lng": 13.41274629297638 },
+      "sw": { "lat": 52.51651965878178, "lng": 13.393137847496032 }
+    },
+    "groups": [
+      {
+        "type": "Recommended Places",
+        "name": "recommended",
+        "items": [
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "54bd1e28498eec46cfc17c24",
+              "name": "Father Carpenter Coffee Brewers",
+              "contact": {
+                "phone": "+4930400440",
+                "formattedPhone": "+49 30 400440",
+                "twitter": "fathercarpenter",
+                "instagram": "father.carpenter.coffee",
+                "facebook": "266507380216521",
+                "facebookUsername": "fathercarpentercoffee",
+                "facebookName": "Father Carpenter Coffee Brewers"
+              },
+              "location": {
+                "address": "Münzstr. 21",
+                "crossStreet": "1. Hof",
+                "lat": 52.52446934407154,
+                "lng": 13.406614065170288,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52446934407154, "lng": 13.406614065170288 }],
+                "distance": 509,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Münzstr. 21 (1. Hof)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 5135, "usersCount": 2596, "tipCount": 279 },
+              "url": "http://fathercarpenter.com",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 9.4,
+              "ratingSignals": 1325,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 6:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 6:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": {
+                "count": 1,
+                "summary": "One other person is here",
+                "groups": [{ "type": "others", "name": "Other people here", "count": 1, "items": [] }]
+              }
+            },
+            "tips": [
+              {
+                "id": "54edcd9d498e4419b405f62d",
+                "createdAt": 1424870813,
+                "text": "Fuckin' excellent grub, aye.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/54edcd9d498e4419b405f62d",
+                "photo": {
+                  "id": "54edcd9f498e52ee5307697a",
+                  "createdAt": 1424870815,
+                  "source": { "name": "Foursquare for iOS", "url": "https://foursquare.com/download/#/iphone" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/5987102_PAZ2YQjhLGcIcwvfu88p4yaiESRouZLzDeVRl09qI1g.jpg",
+                  "width": 1920,
+                  "height": 1440,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/5987102_PAZ2YQjhLGcIcwvfu88p4yaiESRouZLzDeVRl09qI1g.jpg",
+                "likes": { "count": 7, "groups": [], "summary": "7 likes" },
+                "logView": true,
+                "agreeCount": 7,
+                "disagreeCount": 0,
+                "todo": { "count": 2 },
+                "user": {
+                  "id": "5987102",
+                  "firstName": "David",
+                  "lastName": "Chaplin",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/5987102-AWMJZEJ4YQVX5IG3.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-54bd1e28498eec46cfc17c24-0"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4adcda79f964a5208b4621e3",
+              "name": "Café Cinema",
+              "contact": { "phone": "+4949302806415", "formattedPhone": "+49 4930 2806415" },
+              "location": {
+                "address": "Rosenthaler Str. 39",
+                "lat": 52.52431544970461,
+                "lng": 13.40244768975518,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52431544970461, "lng": 13.40244768975518 }],
+                "distance": 508,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosenthaler Str. 39", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d116941735",
+                  "name": "Bar",
+                  "pluralName": "Bars",
+                  "shortName": "Bar",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 3209, "usersCount": 2513, "tipCount": 87 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 8.6,
+              "ratingSignals": 440,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": { "isOpen": false, "isLocalHoliday": false },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "52011460498edf54a2c416d3",
+                "createdAt": 1375802464,
+                "text": "De los sitios más auténticos que he visto aquí en Berlín. Parada obligatoria. :)",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/52011460498edf54a2c416d3",
+                "photo": {
+                  "id": "52011477498e2b39e35a2ab9",
+                  "createdAt": 1375802487,
+                  "source": { "name": "Foursquare for Android", "url": "https://foursquare.com/download/#/android" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/36334563_nG0WHhmugXeRfVaUcs48vzowyYJFkadYXCcn0UXyXXM.jpg",
+                  "width": 960,
+                  "height": 960,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/36334563_nG0WHhmugXeRfVaUcs48vzowyYJFkadYXCcn0UXyXXM.jpg",
+                "likes": { "count": 10, "groups": [], "summary": "10 likes" },
+                "logView": true,
+                "agreeCount": 10,
+                "disagreeCount": 0,
+                "todo": { "count": 2 },
+                "user": {
+                  "id": "36334563",
+                  "firstName": "Maria",
+                  "lastName": "Marieta",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/O2FASQL5N5OEKR32.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4adcda79f964a5208b4621e3-1"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "55031515498ecb9c699ed0a0",
+              "name": "Café 93",
+              "contact": {
+                "phone": "+493054878287",
+                "formattedPhone": "+49 30 54878287",
+                "instagram": "cafeneundrei",
+                "facebook": "788958664509441",
+                "facebookUsername": "cafeneundrei",
+                "facebookName": "Café Neundrei"
+              },
+              "location": {
+                "address": "Monbijouplatz 2",
+                "lat": 52.52299702982836,
+                "lng": 13.399751875666775,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52299702982836, "lng": 13.399751875666775 }],
+                "distance": 484,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Monbijouplatz 2", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 414, "usersCount": 194, "tipCount": 13 },
+              "url": "http://www.neundrei.com",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 8.4,
+              "ratingSignals": 76,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 6:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 6:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "573ffaaa498ebc7c46764b02",
+                "createdAt": 1463810730,
+                "text":
+                  "Great coffee just around the corner from Hackescher Market. The vegan pastries are sinfully good as well.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/573ffaaa498ebc7c46764b02",
+                "likes": { "count": 1, "groups": [], "summary": "1 like" },
+                "logView": true,
+                "agreeCount": 1,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "151168934",
+                  "firstName": "Adam",
+                  "lastName": "Carey",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/151168934-AK51W5WDZ3EEEST0.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-55031515498ecb9c699ed0a0-2"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "5513bfb5498ea118a7b91102",
+              "name": "BEN RAHIM",
+              "contact": {
+                "phone": "+493028886034",
+                "formattedPhone": "+49 30 28886034",
+                "twitter": "benrahimsc",
+                "instagram": "benrahimcoffee",
+                "facebook": "107473685941133",
+                "facebookName": "BEN RAHIM  Speciality Coffee"
+              },
+              "location": {
+                "address": "Sophienstr. 7",
+                "lat": 52.52516811272114,
+                "lng": 13.40192843798598,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52516811272114, "lng": 13.40192843798598 }],
+                "distance": 609,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Sophienstr. 7", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 2459, "usersCount": 1140, "tipCount": 162 },
+              "url": "http://benrahim.de",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 9.5,
+              "ratingSignals": 674,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 6:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 6:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "5606875f498e94f0f13628c6",
+                "createdAt": 1443268447,
+                "text":
+                  "Tiny hidden coffee place in the Hackescher Höfe backyard. Incredibly nice owner, lovely little green tables outside.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/5606875f498e94f0f13628c6",
+                "likes": { "count": 5, "groups": [], "summary": "5 likes" },
+                "logView": true,
+                "agreeCount": 5,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "132513537",
+                  "firstName": "D.",
+                  "lastName": "E.",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/132513537-BV4TVWR1GWXPWJI0.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-5513bfb5498ea118a7b91102-3"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4af80b9df964a520cb0a22e3",
+              "name": "Buscaglione",
+              "contact": { "phone": "+493049353111", "formattedPhone": "+49 30 49353111" },
+              "location": {
+                "address": "Rochstr. 3",
+                "lat": 52.52399380498759,
+                "lng": 13.407616209150518,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52399380498759, "lng": 13.407616209150518 }],
+                "distance": 479,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rochstr. 3", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 1087, "usersCount": 260, "tipCount": 19 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 8.1,
+              "ratingSignals": 53,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 6:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 6:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "50f18205e4b0d0765c35e252",
+                "createdAt": 1358004741,
+                "text": "Unbedingt die Törtchen probieren.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/50f18205e4b0d0765c35e252",
+                "likes": { "count": 2, "groups": [], "summary": "2 likes" },
+                "logView": true,
+                "agreeCount": 2,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "20133919",
+                  "firstName": "Freebian",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/RLAFYLAPLA32OYQ3.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4af80b9df964a520cb0a22e3-4"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "5925837931fd140982cc421b",
+              "name": "Paul Möhring",
+              "contact": {
+                "phone": "+493084711028",
+                "formattedPhone": "+49 30 84711028",
+                "instagram": "tradition.und.wahnsinn",
+                "facebook": "121537691616060",
+                "facebookUsername": "dbheinz",
+                "facebookName": "Paul Möhring - Tradition & Wahnsinn"
+              },
+              "location": {
+                "address": "Oranienburger Str. 84",
+                "lat": 52.523596,
+                "lng": 13.399507,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.523596, "lng": 13.399507 }],
+                "distance": 543,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Oranienburger Str. 84", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1c9941735",
+                  "name": "Ice Cream Shop",
+                  "pluralName": "Ice Cream Shops",
+                  "shortName": "Ice Cream",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/icecream_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": true,
+              "stats": { "checkinsCount": 80, "usersCount": 57, "tipCount": 15 },
+              "url": "http://paulmoehring.de",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 8.3,
+              "ratingSignals": 50,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 10:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 10:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "venuePage": { "id": "457657536" },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "59f5cb75a4b51b4cb1bd8bb1",
+                "createdAt": 1509280629,
+                "text":
+                  "I fell in love with this place. Amazing staff, croissants that are out of this world. Great strudel and delicious sandwiches. The coffee was fantastic. Sadly it was too cold for their ice cream...",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/59f5cb75a4b51b4cb1bd8bb1",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "460241900",
+                  "firstName": "Nigel",
+                  "gender": "none",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/blank_boy.png", "default": true }
+                }
+              }
+            ],
+            "referralId": "e-5-5925837931fd140982cc421b-5"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "52a21023498e613a83979959",
+              "name": "TYPE HYPE",
+              "contact": {
+                "phone": "+4930408186327",
+                "formattedPhone": "+49 30 408186327",
+                "facebook": "315216115264681",
+                "facebookUsername": "TYPEHYPE",
+                "facebookName": "TYPE HYPE"
+              },
+              "location": {
+                "address": "Rosa-Luxemburg-Str. 9",
+                "crossStreet": "Münzstr.",
+                "lat": 52.52455093981894,
+                "lng": 13.409918546676636,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52455093981894, "lng": 13.409918546676636 }],
+                "distance": 607,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosa-Luxemburg-Str. 9 (Münzstr.)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1f4941735",
+                  "name": "Design Studio",
+                  "pluralName": "Design Studios",
+                  "shortName": "Design",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/design_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 852, "usersCount": 561, "tipCount": 22 },
+              "url": "http://typehype.com",
+              "rating": 8.5,
+              "ratingSignals": 135,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 8:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 8:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "531b48a0498e03aaf7ae71a0",
+                "createdAt": 1394296992,
+                "text":
+                  "Der Barista weiß zwar wie man Bücher schön einpackt, aber nicht wie man einen Capuccino macht.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/531b48a0498e03aaf7ae71a0",
+                "likes": { "count": 3, "groups": [], "summary": "3 likes" },
+                "logView": true,
+                "agreeCount": 3,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "15039378",
+                  "firstName": "FrauLea",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/DMN5HCHOYK4HHF5T.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-52a21023498e613a83979959-6"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "58d3939cfebfbd175fd7f220",
+              "name": "Filter",
+              "contact": {},
+              "location": {
+                "address": "Rosenthaler str 51",
+                "lat": 52.52562065663875,
+                "lng": 13.403999127805513,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52562065663875, "lng": 13.403999127805513 }],
+                "distance": 628,
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosenthaler str 51", "Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 116, "usersCount": 65, "tipCount": 2 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 8.5,
+              "ratingSignals": 22,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "5981b2bf037be16d8c1d6abd",
+                "createdAt": 1501672127,
+                "text": "Great coffee with locally roasted Bonanza beans",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/5981b2bf037be16d8c1d6abd",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "1743135",
+                  "firstName": "Lisa",
+                  "lastName": "Hommelgaard",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/C0L341BMDBUZZ0Q3.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-58d3939cfebfbd175fd7f220-7"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4ec7c6e0b634b2fd74c12ec9",
+              "name": "ComeBuy Bubble Tea",
+              "contact": {
+                "phone": "+493093624515",
+                "formattedPhone": "+49 30 93624515",
+                "twitter": "comebuy_de",
+                "facebook": "131003490324237",
+                "facebookUsername": "COMEBUY.Deutschland",
+                "facebookName": "COME BUY - Bubble Tea - Deutschland"
+              },
+              "location": {
+                "address": "Rosenthaler Str. 31",
+                "lat": 52.525402698620276,
+                "lng": 13.403420693789176,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.525402698620276, "lng": 13.403420693789176 }],
+                "distance": 609,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosenthaler Str. 31", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "52e81612bcbc57f1066b7a0c",
+                  "name": "Bubble Tea Shop",
+                  "pluralName": "Bubble Tea Shops",
+                  "shortName": "Bubble Tea",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bubble_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 1595, "usersCount": 732, "tipCount": 48 },
+              "url": "http://www.comebuy2002.de",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 8.4,
+              "ratingSignals": 220,
+              "menu": {
+                "type": "Menu",
+                "label": "Menu",
+                "anchor": "View Menu",
+                "url": "http://www.comebuy2002.de/index.php?site=angebot",
+                "mobileUrl": "http://www.comebuy2002.de/index.php?site=angebot",
+                "externalUrl": "http://www.comebuy2002.de/index.php?site=angebot"
+              },
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 9:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 9:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": {
+                "count": 1,
+                "summary": "One other person is here",
+                "groups": [{ "type": "others", "name": "Other people here", "count": 1, "items": [] }]
+              }
+            },
+            "tips": [
+              {
+                "id": "51c33300498ed452471d4911",
+                "createdAt": 1371747072,
+                "text": "Just like Taipei, except the whole \u20acs thing",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/51c33300498ed452471d4911",
+                "likes": { "count": 2, "groups": [], "summary": "2 likes" },
+                "logView": true,
+                "agreeCount": 2,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "73767",
+                  "firstName": "Jc",
+                  "lastName": "Tu",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/73767-45D4PB1VSTZWQ02H.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4ec7c6e0b634b2fd74c12ec9-8"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4d820d0b85d3d7ce1426a62d",
+              "name": "Spreegold",
+              "contact": {
+                "phone": "+493024083425",
+                "formattedPhone": "+49 30 24083425",
+                "twitter": "spreegoldberlin",
+                "facebook": "185453773537",
+                "facebookUsername": "spreegold",
+                "facebookName": "spreegold"
+              },
+              "location": {
+                "address": "Rosa-Luxemburg-Str. 2",
+                "crossStreet": "Dircksenstr.",
+                "lat": 52.52290249590985,
+                "lng": 13.409126792649076,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52290249590985, "lng": 13.409126792649076 }],
+                "distance": 428,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosa-Luxemburg-Str. 2 (Dircksenstr.)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "52e81612bcbc57f1066b79f1",
+                  "name": "Bistro",
+                  "pluralName": "Bistros",
+                  "shortName": "Bistro",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 7277, "usersCount": 3659, "tipCount": 200 },
+              "url": "http://www.spreegold.com",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 7.7,
+              "ratingSignals": 857,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until Midnight",
+                "richStatus": { "entities": [], "text": "Open until Midnight" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": {
+                "count": 1,
+                "summary": "One other person is here",
+                "groups": [{ "type": "others", "name": "Other people here", "count": 1, "items": [] }]
+              }
+            },
+            "tips": [
+              {
+                "id": "520120c5498e9fb271213e83",
+                "createdAt": 1375805637,
+                "text": "Himbeerlimo kann was.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/520120c5498e9fb271213e83",
+                "photo": {
+                  "id": "520120ce498e32d1dbf41c2d",
+                  "createdAt": 1375805646,
+                  "source": { "name": "Foursquare for iOS", "url": "https://foursquare.com/download/#/iphone" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/3766557_pzM-xs9-vpSrPITnbNFS9MGgsAteTKWqL6nAMOj5DsE.jpg",
+                  "width": 720,
+                  "height": 720,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/3766557_pzM-xs9-vpSrPITnbNFS9MGgsAteTKWqL6nAMOj5DsE.jpg",
+                "likes": { "count": 7, "groups": [], "summary": "7 likes" },
+                "logView": true,
+                "agreeCount": 7,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "3766557",
+                  "firstName": "Philipp",
+                  "lastName": "Roth",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/HD0Z45ZLAI1RJURP.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4d820d0b85d3d7ce1426a62d-9"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4aedaec5f964a52022ce21e3",
+              "name": "Café Oliv",
+              "contact": {
+                "phone": "+493089206540",
+                "formattedPhone": "+49 30 89206540",
+                "facebook": "194428140699964",
+                "facebookUsername": "CafeOlivBerlin",
+                "facebookName": "Café Oliv Berlin"
+              },
+              "location": {
+                "address": "Münzstr. 8",
+                "crossStreet": "Almstadtstr.",
+                "lat": 52.52428700663428,
+                "lng": 13.408880435577991,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52428700663428, "lng": 13.408880435577991 }],
+                "distance": 545,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Münzstr. 8 (Almstadtstr.)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d143941735",
+                  "name": "Breakfast Spot",
+                  "pluralName": "Breakfast Spots",
+                  "shortName": "Breakfast",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/breakfast_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 4226, "usersCount": 2469, "tipCount": 128 },
+              "url": "http://oliv-cafe.de",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 8.1,
+              "ratingSignals": 515,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 7:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 7:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "4f51d95fe4b0ee60b851a8f8",
+                "createdAt": 1330764127,
+                "text": "Upload a SoundCloud recording of the mechanical organical vibe.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/4f51d95fe4b0ee60b851a8f8",
+                "likes": { "count": 5, "groups": [], "summary": "5 likes" },
+                "logView": true,
+                "agreeCount": 5,
+                "disagreeCount": 0,
+                "todo": { "count": 2 },
+                "user": {
+                  "id": "7659569",
+                  "firstName": "SandyInBerlin",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/PISZEZVOL2VPQSRR.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4aedaec5f964a52022ce21e3-10"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "592592d0364d971c134613a3",
+              "name": "Funk You - Natural Food",
+              "contact": { "phone": "+4917661055335", "formattedPhone": "+49 176 61055335" },
+              "location": {
+                "address": "Rosenthaler Str. 23",
+                "lat": 52.526294511238184,
+                "lng": 13.403512827286775,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.526294511238184, "lng": 13.403512827286775 }],
+                "distance": 706,
+                "postalCode": "10119",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosenthaler Str. 23", "10119 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1bd941735",
+                  "name": "Salad Place",
+                  "pluralName": "Salad Places",
+                  "shortName": "Salad",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/salad_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 150, "usersCount": 99, "tipCount": 6 },
+              "url": "http://funkyounaturalfood.com",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 8.7,
+              "ratingSignals": 33,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "59f03eb40802d42ae57e5917",
+                "createdAt": 1508916916,
+                "text":
+                  "Hier dauert alles etwas lääääääängeeeeeeer! Aber gut, das Angebot ist ideal für jeden Veganer! ����",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/59f03eb40802d42ae57e5917",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "185082305",
+                  "firstName": "Linda",
+                  "lastName": "Wauer",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/185082305-3M11VG2ZMXMOOVTG.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-592592d0364d971c134613a3-11"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4f96fb2b6d86c297eee02f51",
+              "name": "Bonne Vie Café",
+              "contact": {},
+              "location": {
+                "address": "Propststrasse 1",
+                "lat": 52.51724588795042,
+                "lng": 13.407686948776245,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.51724588795042, "lng": 13.407686948776245 }],
+                "distance": 358,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Propststrasse 1", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 67, "usersCount": 66, "tipCount": 3 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.5,
+              "ratingSignals": 12,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 7:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 7:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "598705c1121384585dee3db8",
+                "createdAt": 1502021057,
+                "text": "Great coffee and beautiful interior",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/598705c1121384585dee3db8",
+                "photo": {
+                  "id": "598705c40d8a0f590099f27e",
+                  "createdAt": 1502021060,
+                  "source": { "name": "Foursquare for iOS", "url": "https://foursquare.com/download/#/iphone" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/102152901_9dyI0eegCH0g1H7za2KIKd3IdxvF0xXWyL2A7DTbXW8.jpg",
+                  "width": 1440,
+                  "height": 1920,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/102152901_9dyI0eegCH0g1H7za2KIKd3IdxvF0xXWyL2A7DTbXW8.jpg",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "102152901",
+                  "firstName": "Alexandr",
+                  "lastName": "Manko",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/102152901-K3JT4XQ02TH2VMXZ.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4f96fb2b6d86c297eee02f51-12"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "5645d48d498ebb7b50aab8d8",
+              "name": "Gregory's",
+              "contact": { "phone": "+493039886222", "formattedPhone": "+49 30 39886222", "twitter": "gregorysgr" },
+              "location": {
+                "address": "Gontardstr. 10",
+                "crossStreet": "Rathausstr.",
+                "lat": 52.520990912477245,
+                "lng": 13.411162113034559,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.520990912477245, "lng": 13.411162113034559 }],
+                "distance": 434,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Gontardstr. 10 (Rathausstr.)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 564, "usersCount": 311, "tipCount": 13 },
+              "url": "http://www.gregorys.gr",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.6,
+              "ratingSignals": 67,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Likely open",
+                "richStatus": { "entities": [], "text": "Likely open" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "567678cd38fa6ec4a84d56ef",
+                "createdAt": 1450604749,
+                "text":
+                  "The only place in Berlin you can enjoy greek cold coffee with bugatsa. Wish that Gregory's opens new shops in other European cities too.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/567678cd38fa6ec4a84d56ef",
+                "likes": { "count": 1, "groups": [], "summary": "1 like" },
+                "logView": true,
+                "agreeCount": 2,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "10402674",
+                  "firstName": "John",
+                  "lastName": "Alexakis",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/10402674-41VAI5AHS3RKJD2O.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-5645d48d498ebb7b50aab8d8-13"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "51a0a496498e210b5f81f44b",
+              "name": "Café-Haus Koch Berlin",
+              "contact": {
+                "phone": "+49302423775",
+                "formattedPhone": "+49 30 2423775",
+                "facebook": "138377472998060",
+                "facebookUsername": "CafeHausKochBerlin",
+                "facebookName": "Café-Haus Koch Berlin"
+              },
+              "location": {
+                "address": "Karl-Liebknecht-Str. 7",
+                "lat": 52.52082609237831,
+                "lng": 13.405733577027748,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52082609237831, "lng": 13.405733577027748 }],
+                "distance": 105,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Karl-Liebknecht-Str. 7", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 527, "usersCount": 495, "tipCount": 11 },
+              "url": "http://www.cafehaus-berlin.de",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.2,
+              "ratingSignals": 65,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 7:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 7:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "5291cb9411d22acaa98780c7",
+                "createdAt": 1385286548,
+                "text":
+                  "Gercekten cok guzel bur yer ve Berlinin merkezinde. Kasarli tost ve cay esliginde harika vakit geciriyoruz. Tesekkurler...",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/5291cb9411d22acaa98780c7",
+                "likes": { "count": 1, "groups": [], "summary": "1 like" },
+                "logView": true,
+                "agreeCount": 1,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "50944764",
+                  "firstName": "Istemihan",
+                  "lastName": "Teleri",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/KLWQRELJQAJPWMFK.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-51a0a496498e210b5f81f44b-14"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "51c5bc33498e0d1d9282c2ef",
+              "name": "Cuore di vetro",
+              "contact": {
+                "facebook": "426032587504240",
+                "facebookUsername": "CuoreDiVetroBerlin",
+                "facebookName": "Cuore Di Vetro"
+              },
+              "location": {
+                "address": "Max-Beer-Str. 33",
+                "lat": 52.52657678557984,
+                "lng": 13.408722634920323,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52657678557984, "lng": 13.408722634920323 }],
+                "distance": 774,
+                "postalCode": "10119",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Max-Beer-Str. 33", "10119 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1c9941735",
+                  "name": "Ice Cream Shop",
+                  "pluralName": "Ice Cream Shops",
+                  "shortName": "Ice Cream",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/icecream_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 2737, "usersCount": 980, "tipCount": 134 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 9.4,
+              "ratingSignals": 509,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 9:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 9:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "541813a0498e054cb19687ac",
+                "createdAt": 1410864032,
+                "text": "Il miglior gelato artigianale di Berlino",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/541813a0498e054cb19687ac",
+                "likes": { "count": 4, "groups": [], "summary": "4 likes" },
+                "logView": true,
+                "agreeCount": 4,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "18006840",
+                  "firstName": "Pasquale",
+                  "lastName": "Netti",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/18006840-SHNFJABQ43QPVIKQ.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-51c5bc33498e0d1d9282c2ef-15"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4af818bef964a520f70a22e3",
+              "name": "Barcomi's Deli",
+              "contact": {
+                "phone": "+493028598363",
+                "formattedPhone": "+49 30 28598363",
+                "instagram": "barcomis_berlin",
+                "facebook": "108718102525617",
+                "facebookUsername": "BarcomisBerlin",
+                "facebookName": "Barcomi's Berlin"
+              },
+              "location": {
+                "address": "Sophienstr. 21",
+                "crossStreet": "Sophie-Gips-Höfe, 2. Hof",
+                "lat": 52.52627880912362,
+                "lng": 13.401139243572935,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52627880912362, "lng": 13.401139243572935 }],
+                "distance": 744,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Sophienstr. 21 (Sophie-Gips-Höfe, 2. Hof)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d146941735",
+                  "name": "Deli / Bodega",
+                  "pluralName": "Delis / Bodegas",
+                  "shortName": "Deli / Bodega",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 7195, "usersCount": 3940, "tipCount": 266 },
+              "url": "http://www.barcomis.de",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 8.9,
+              "ratingSignals": 1095,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 9:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 9:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": {
+                "count": 1,
+                "summary": "One other person is here",
+                "groups": [{ "type": "others", "name": "Other people here", "count": 1, "items": [] }]
+              }
+            },
+            "tips": [
+              {
+                "id": "511a4d8fe4b091f458ce11d5",
+                "createdAt": 1360678287,
+                "text":
+                  "Enjoy a casual breakfast at Barcomi\u2019s (barcomis.de), a smart café that roasts its own coffee and serves filling, elegant breakfast plates and tasty bagels (around \u20ac8/ £7).",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/511a4d8fe4b091f458ce11d5",
+                "likes": { "count": 13, "groups": [], "summary": "13 likes" },
+                "logView": true,
+                "agreeCount": 12,
+                "disagreeCount": 0,
+                "todo": { "count": 23 },
+                "user": {
+                  "id": "2536922",
+                  "firstName": "The Telegraph",
+                  "gender": "none",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/JCHCFRMREHRZPXNJ.jpg" },
+                  "type": "page"
+                }
+              }
+            ],
+            "referralId": "e-5-4af818bef964a520f70a22e3-16"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "51ded67a498e84abcecac7eb",
+              "name": "KATJES Café Grün-Ohr",
+              "contact": {
+                "phone": "+493097894702",
+                "formattedPhone": "+49 30 97894702",
+                "facebook": "1397751153771326",
+                "facebookUsername": "katjesveggiecafe",
+                "facebookName": "Katjes Veggie Café"
+              },
+              "location": {
+                "address": "Rosenthaler Str. 32",
+                "lat": 52.52489105403483,
+                "lng": 13.403298205097427,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52489105403483, "lng": 13.403298205097427 }],
+                "distance": 555,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Rosenthaler Str. 32", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1bc941735",
+                  "name": "Cupcake Shop",
+                  "pluralName": "Cupcake Shops",
+                  "shortName": "Cupcakes",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cupcakes_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": true,
+              "stats": { "checkinsCount": 325, "usersCount": 273, "tipCount": 13 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.8,
+              "ratingSignals": 68,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 7:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 7:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "venuePage": { "id": "82908953" },
+              "storeId": "",
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "52ed7f2c11d23e698ce46315",
+                "createdAt": 1391296300,
+                "text": "Cupcakes, coffee and juices! Cool! ;-)",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/52ed7f2c11d23e698ce46315",
+                "photo": {
+                  "id": "52ed7f2e498ea8e7bfaeef66",
+                  "createdAt": 1391296302,
+                  "source": { "name": "Foursquare for iOS", "url": "https://foursquare.com/download/#/iphone" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/57329796_NiIl53gIwsqyWwJeYOV9cmaitono-c7Z_7_6bqf8FdU.jpg",
+                  "width": 960,
+                  "height": 720,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/57329796_NiIl53gIwsqyWwJeYOV9cmaitono-c7Z_7_6bqf8FdU.jpg",
+                "likes": { "count": 1, "groups": [], "summary": "1 like" },
+                "logView": true,
+                "agreeCount": 1,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "57329796",
+                  "firstName": "Tobia",
+                  "lastName": "Crivellari",
+                  "gender": "male",
+                  "photo": {
+                    "prefix": "https://igx.4sqi.net/img/user/",
+                    "suffix": "/57329796_Fr8GgZgn_SZwfXzldq2K88BXQDEoLvOuaJ3YIREURTNr60UBScpDn_CIvB-VOW8oUaLU1JdmY.jpg"
+                  }
+                }
+              }
+            ],
+            "referralId": "e-5-51ded67a498e84abcecac7eb-17"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "54270b05498e8525dc82472a",
+              "name": "Quà Phê",
+              "contact": {
+                "phone": "+493097005479",
+                "formattedPhone": "+49 30 97005479",
+                "facebook": "1524162317800259",
+                "facebookUsername": "atquaphe",
+                "facebookName": "QUA PHE"
+              },
+              "location": {
+                "address": "Max-Beer-Str. 37",
+                "crossStreet": "Schendelgasse",
+                "lat": 52.52690541186049,
+                "lng": 13.408734478767942,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52690541186049, "lng": 13.408734478767942 }],
+                "distance": 809,
+                "postalCode": "10119",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Max-Beer-Str. 37 (Schendelgasse)", "10119 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d14a941735",
+                  "name": "Vietnamese Restaurant",
+                  "pluralName": "Vietnamese Restaurants",
+                  "shortName": "Vietnamese",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/vietnamese_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 2282, "usersCount": 1027, "tipCount": 119 },
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 9.2,
+              "ratingSignals": 543,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 10:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 10:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "54aa7cf7498ea164602cf944",
+                "createdAt": 1420459255,
+                "text":
+                  "Lovely little vietnamese coffee shop/eatery! They serve great specialty coffee from Bonanza and also traditional vietnamese coffee! Highly recommendable to try! Also you will find great little snacks!",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/54aa7cf7498ea164602cf944",
+                "likes": { "count": 3, "groups": [], "summary": "3 likes" },
+                "logView": true,
+                "agreeCount": 3,
+                "disagreeCount": 0,
+                "todo": { "count": 1 },
+                "user": {
+                  "id": "67925791",
+                  "firstName": "Marco",
+                  "lastName": "Prfr",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/0YQNJL23YBSERPRM.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-54270b05498e8525dc82472a-18"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "5444ff57498eeca53951650e",
+              "name": "eisenberg's cafe & bistro",
+              "contact": { "phone": "+491796928037", "formattedPhone": "+49 179 6928037" },
+              "location": {
+                "address": "Sophienstr. 5",
+                "lat": 52.525392,
+                "lng": 13.401514,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.525392, "lng": 13.401514 }],
+                "distance": 643,
+                "cc": "DE",
+                "neighborhood": "Mitte",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Sophienstr. 5", "Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 86, "usersCount": 77, "tipCount": 9 },
+              "url": "http://eisenbergs.berlin",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 8.0,
+              "ratingSignals": 26,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "591c317323a2e636e45e95e0",
+                "createdAt": 1495019891,
+                "text": "Tolles kleines Café mit viel Liebe",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/591c317323a2e636e45e95e0",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "112242161",
+                  "firstName": "Thomas",
+                  "lastName": "Hauk",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/112242161-EFELZRZGPO0UM2JM.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-5444ff57498eeca53951650e-19"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4fa10f63e4b0f30726d33cf5",
+              "name": "TeeGschwendner",
+              "contact": {
+                "phone": "+49302423255",
+                "formattedPhone": "+49 30 2423255",
+                "twitter": "tg_tee",
+                "facebook": "131468936893444",
+                "facebookUsername": "TeeGschwendner",
+                "facebookName": "TeeGschwendner"
+              },
+              "location": {
+                "address": "Propststr. 3",
+                "lat": 52.517014218452196,
+                "lng": 13.407068271623665,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.517014218452196, "lng": 13.407068271623665 }],
+                "distance": 362,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Propststr. 3", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1dc931735",
+                  "name": "Tea Room",
+                  "pluralName": "Tea Rooms",
+                  "shortName": "Tea Room",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/tearoom_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": true,
+              "stats": { "checkinsCount": 38, "usersCount": 28, "tipCount": 1 },
+              "url": "http://www.teegschwendner.de",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.3,
+              "ratingSignals": 8,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "4fa10fc9e4b0f2a7751a98b1",
+                "createdAt": 1335955401,
+                "text": "Best teas in town",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/4fa10fc9e4b0f2a7751a98b1",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "22532613",
+                  "firstName": "bruna",
+                  "lastName": "amaral",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/WNHKO24JO1YZX01I.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4fa10f63e4b0f30726d33cf5-20"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4adcda7af964a520e74621e3",
+              "name": "Kaffeemitte",
+              "contact": { "phone": "+493024083204", "formattedPhone": "+49 30 24083204", "twitter": "kaffeemitte" },
+              "location": {
+                "address": "Weinmeisterstr. 9a",
+                "lat": 52.52507116063537,
+                "lng": 13.406030936430014,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.52507116063537, "lng": 13.406030936430014 }],
+                "distance": 568,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Weinmeisterstr. 9a", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 8100, "usersCount": 4453, "tipCount": 155 },
+              "url": "http://kaffeemitte.de",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 7.7,
+              "ratingSignals": 817,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 8:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 8:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "4e8c0e670aaf7fe613d0c564",
+                "createdAt": 1317801575,
+                "text": "W-Lan primavera2010",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/4e8c0e670aaf7fe613d0c564",
+                "likes": { "count": 15, "groups": [], "summary": "15 likes" },
+                "logView": true,
+                "agreeCount": 15,
+                "disagreeCount": 0,
+                "todo": { "count": 1 },
+                "user": {
+                  "id": "87165",
+                  "firstName": "Sabine",
+                  "lastName": "Weyel",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/-1_1257293574237.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4adcda7af964a520e74621e3-21"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "584ea307126ae87dbd5608be",
+              "name": "Father Carpenter To-Go",
+              "contact": { "phone": "+4930400440", "formattedPhone": "+49 30 400440" },
+              "location": {
+                "address": "Münzstraße 21",
+                "lat": 52.524484,
+                "lng": 13.406668,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.524484, "lng": 13.406668 }],
+                "distance": 511,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Münzstraße 21", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 75, "usersCount": 37, "tipCount": 1 },
+              "url": "https://fathercarpenter.com",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.4,
+              "ratingSignals": 16,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Open until 5:00 PM",
+                "richStatus": { "entities": [], "text": "Open until 5:00 PM" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "58ecaec4eb645b5fed533a4c",
+                "createdAt": 1491906244,
+                "text": "Really really good coffee and breakfast!",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/58ecaec4eb645b5fed533a4c",
+                "photo": {
+                  "id": "58ecaec780e1af6f9307d4ff",
+                  "createdAt": 1491906247,
+                  "source": { "name": "Foursquare for iOS", "url": "https://foursquare.com/download/#/iphone" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/5407155_jN8qsEsahwmZIKKWWsJSCZa18pUoIl2OWA_sVDyA05M.jpg",
+                  "width": 1440,
+                  "height": 1920,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/5407155_jN8qsEsahwmZIKKWWsJSCZa18pUoIl2OWA_sVDyA05M.jpg",
+                "logView": true,
+                "agreeCount": 1,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "5407155",
+                  "firstName": "Anne Christine",
+                  "lastName": "Brønnum",
+                  "gender": "female",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/SHOBJJWISBJAKHAW.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-584ea307126ae87dbd5608be-22"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4e031aed18a819eb59662073",
+              "name": "You're welcome",
+              "contact": {},
+              "location": {
+                "address": "Große Hamburger Straße",
+                "lat": 52.525044287437126,
+                "lng": 13.398923894964721,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.525044287437126, "lng": 13.398923894964721 }],
+                "distance": 693,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Große Hamburger Straße", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 82, "usersCount": 70, "tipCount": 5 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.7,
+              "ratingSignals": 13,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "57ea4eafcd10a84e9e94c38a",
+                "createdAt": 1474973359,
+                "text": "The Salmon breakfast plate was very delicious. It's a nice café with a charming atmosphere.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/57ea4eafcd10a84e9e94c38a",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "1487958",
+                  "firstName": "Isarmatrose",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/1487958-XIRNOLGWGKP2FVZH.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4e031aed18a819eb59662073-23"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4d9c151d52d6594195cabff2",
+              "name": "Segafredo Zanetti",
+              "contact": {},
+              "location": {
+                "address": "Gontardstr.",
+                "lat": 52.521280502046,
+                "lng": 13.410692546563276,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.521280502046, "lng": 13.410692546563276 }],
+                "distance": 413,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Gontardstr.", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 418, "usersCount": 185, "tipCount": 4 },
+              "url": "http://www.segafredofranchising.com",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.1,
+              "ratingSignals": 18,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Likely open",
+                "richStatus": { "entities": [], "text": "Likely open" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "4ed34ca6b8f7971d6e081e3f",
+                "createdAt": 1322470566,
+                "text": "Eine Oase der Ruhe!",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/4ed34ca6b8f7971d6e081e3f",
+                "likes": { "count": 4, "groups": [], "summary": "4 likes" },
+                "logView": true,
+                "agreeCount": 2,
+                "disagreeCount": 1,
+                "lastVoteText": "Downvoted Sep 18",
+                "lastDownvoteTimestamp": 1505727796,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "6016555",
+                  "firstName": "Holger",
+                  "lastName": "Schulze",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/6016555-PQRRAACTVU3P3UQK.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4d9c151d52d6594195cabff2-24"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "564e1c27498e74169dafc2c3",
+              "name": "Nespresso Boutique",
+              "contact": {},
+              "location": {
+                "address": "Alexanderplatz 9",
+                "lat": 52.522033,
+                "lng": 13.411855,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.522033, "lng": 13.411855 }],
+                "distance": 518,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Alexanderplatz 9", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 71, "usersCount": 47, "tipCount": 0 },
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.2,
+              "ratingSignals": 3,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-5-564e1c27498e74169dafc2c3-25"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "585555194287c920bea85277",
+              "name": "Five Elephant",
+              "contact": {
+                "twitter": "fifeelephant",
+                "instagram": "fiveelephant",
+                "facebook": "166235106745521",
+                "facebookUsername": "FiveElephant",
+                "facebookName": "Five Elephant Coffee & Cake"
+              },
+              "location": {
+                "address": "Alte Schönhauser Str. 14-15",
+                "lat": 52.526764378753406,
+                "lng": 13.40775421974776,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.526764378753406, "lng": 13.40775421974776 }],
+                "distance": 775,
+                "postalCode": "10119",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Alte Schönhauser Str. 14-15", "10119 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 1062, "usersCount": 576, "tipCount": 41 },
+              "url": "http://www.fiveelephant.com",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.5,
+              "ratingSignals": 197,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Likely open",
+                "richStatus": { "entities": [], "text": "Likely open" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "59f7a1f151950e037ea05220",
+                "createdAt": 1509401073,
+                "text": "Deutlich teurer für weniger Kuchen als in Kreuzberg + nur Tresen-Bestuhlung!",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/59f7a1f151950e037ea05220",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "134222745",
+                  "firstName": "Constantin",
+                  "lastName": "W",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/blank_boy.png", "default": true }
+                }
+              }
+            ],
+            "referralId": "e-5-585555194287c920bea85277-26"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4b0e18d0f964a520f05423e3",
+              "name": "Balzac Coffee",
+              "contact": {
+                "phone": "+49493020648311",
+                "formattedPhone": "+49 4930 20648311",
+                "facebook": "65287405857",
+                "facebookUsername": "BalzacCoffee",
+                "facebookName": "Balzac Coffee"
+              },
+              "location": {
+                "address": "Karl-Liebknecht-Str. 5",
+                "crossStreet": "Spandauer Str.",
+                "lat": 52.519681063790664,
+                "lng": 13.403686798037004,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.519681063790664, "lng": 13.403686798037004 }],
+                "distance": 93,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Karl-Liebknecht-Str. 5 (Spandauer Str.)", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0931735",
+                  "name": "Coffee Shop",
+                  "pluralName": "Coffee Shops",
+                  "shortName": "Coffee Shop",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 3331, "usersCount": 2380, "tipCount": 51 },
+              "url": "http://www.balzaccoffee.com",
+              "price": { "tier": 2, "message": "Moderate", "currency": "\u20ac" },
+              "rating": 6.5,
+              "ratingSignals": 267,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "hours": {
+                "status": "Likely open",
+                "richStatus": { "entities": [], "text": "Likely open" },
+                "isOpen": true,
+                "isLocalHoliday": false
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "4f42a607e4b0def99606bd60",
+                "createdAt": 1329767943,
+                "text":
+                  "Please make your choice before occupying the counter. There are people who just want to get a quick coffee and go back to work ;)",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/4f42a607e4b0def99606bd60",
+                "likes": { "count": 6, "groups": [], "summary": "6 likes" },
+                "logView": true,
+                "agreeCount": 6,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "5597580",
+                  "firstName": "Johann",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/IQGPUHRCD3CSEZ13.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4b0e18d0f964a520f05423e3-27"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4b13cbcbf964a5203d9923e3",
+              "name": "Café im Bodemuseum",
+              "contact": {},
+              "location": {
+                "address": "Bodestr. 1-3",
+                "lat": 52.522044249266486,
+                "lng": 13.394029140472412,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.522044249266486, "lng": 13.394029140472412 }],
+                "distance": 773,
+                "postalCode": "10785",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Bodestr. 1-3", "10785 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 103, "usersCount": 88, "tipCount": 3 },
+              "url": "http://www.koflerkompanie.com/de/restaurants_bodemuseum.html",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 7.2,
+              "ratingSignals": 10,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "53f58170498e7e8399f73ed8",
+                "createdAt": 1408598384,
+                "text":
+                  "The place is magic. Having a coffee under the cupola, listing to the echoes of the steps of the visitors, eating cake, is one the most lovely experiences you can have in the neighborhood.",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/53f58170498e7e8399f73ed8",
+                "likes": { "count": 1, "groups": [], "summary": "1 like" },
+                "logView": true,
+                "agreeCount": 1,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "7469370",
+                  "firstName": "Johann",
+                  "lastName": "Grimm",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/7469370-VJDLKASAMRXYB3XS.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4b13cbcbf964a5203d9923e3-28"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                { "summary": "This spot is popular", "type": "general", "reasonName": "globalInteractionReason" }
+              ]
+            },
+            "venue": {
+              "id": "4eedf41d9a52993fb7cfb1ef",
+              "name": "Allegretto - Café im Neuen Museum",
+              "contact": {},
+              "location": {
+                "address": "Bodestr. 1",
+                "lat": 52.519719409789005,
+                "lng": 13.398209002516008,
+                "labeledLatLngs": [{ "label": "display", "lat": 52.519719409789005, "lng": 13.398209002516008 }],
+                "distance": 457,
+                "postalCode": "10178",
+                "cc": "DE",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Deutschland",
+                "formattedAddress": ["Bodestr. 1", "10178 Berlin", "Deutschland"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d16d941735",
+                  "name": "Café",
+                  "pluralName": "Cafés",
+                  "shortName": "Café",
+                  "icon": { "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_", "suffix": ".png" },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": { "checkinsCount": 100, "usersCount": 99, "tipCount": 2 },
+              "url": "http://allegretto-neuesmuseum.de",
+              "price": { "tier": 1, "message": "Cheap", "currency": "\u20ac" },
+              "rating": 6.6,
+              "ratingSignals": 14,
+              "allowMenuUrlEdit": true,
+              "beenHere": { "count": 0, "marked": false, "lastCheckinExpiredAt": 0 },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "tips": [
+              {
+                "id": "555472d0498e7169fc802a4a",
+                "createdAt": 1431597776,
+                "text": "Morroccon mint Tea",
+                "type": "user",
+                "canonicalUrl": "https://foursquare.com/item/555472d0498e7169fc802a4a",
+                "photo": {
+                  "id": "555472d0498e7169fc802a49",
+                  "createdAt": 1431597776,
+                  "source": { "name": "Swarm for iOS", "url": "https://www.swarmapp.com" },
+                  "prefix": "https://igx.4sqi.net/img/general/",
+                  "suffix": "/8732561_0B6Vqljx0SB7CY3cqlo98MI6c5HDEkgODFPVvzMvMIk.jpg",
+                  "width": 1440,
+                  "height": 1920,
+                  "visibility": "public"
+                },
+                "photourl":
+                  "https://igx.4sqi.net/img/general/original/8732561_0B6Vqljx0SB7CY3cqlo98MI6c5HDEkgODFPVvzMvMIk.jpg",
+                "logView": true,
+                "agreeCount": 0,
+                "disagreeCount": 0,
+                "todo": { "count": 0 },
+                "user": {
+                  "id": "8732561",
+                  "firstName": "Jarkko",
+                  "lastName": "Koivuniemi",
+                  "gender": "male",
+                  "photo": { "prefix": "https://igx.4sqi.net/img/user/", "suffix": "/CAMHND1CKEAU3IVC.jpg" }
+                }
+              }
+            ],
+            "referralId": "e-5-4eedf41d9a52993fb7cfb1ef-29"
+          }
+        ]
+      }
+    ]
+  }
+}
