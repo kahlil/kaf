@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve . --open"
+    "start": "serve . --open & npm run livereload",
+    "livereload": "livereload \"css, js, index.html\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "livereload": "^0.6.3",
+    "prettier": "^1.8.2",
     "serve": "^6.4.1"
   },
   "dependencies": {
     "basscss": "^8.0.3",
-    "normalize.css": "^7.0.0",
-    "prettier": "^1.8.2"
+    "lit-html": "^0.7.1",
+    "normalize.css": "^7.0.0"
   }
 }
