@@ -8,3 +8,10 @@ html {
 h1 {
   font-size: 2rem;
 }
+
+tastybeans-app {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
