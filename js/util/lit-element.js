@@ -8,7 +8,6 @@ export class LitElement extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.render = render;
   }
 
   dispatch(action, detail) {
@@ -23,5 +22,16 @@ export class LitElement extends HTMLElement {
         },
       )
     );
+  }
+
+  // Batch render calls.
+  invalidate() {
+    if (!this.needsRender) {
+      this.needsRender = true;
+      Promise.resolve().then(() => {
+        this.needsRender = false;
+        render(this.render(), this.shadowRoot);
+      });
+    }
   }
 }
