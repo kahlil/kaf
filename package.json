@@ -1,5 +1,5 @@
 {
-  "name": "web-components",
+  "name": "kaf",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "livereload": "^0.6.3",
     "prettier": "^1.8.2",
