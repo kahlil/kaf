@@ -17,13 +17,22 @@ export const CSS = html`
     }
 
     h1 {
-      padding: 5px 5px 5px 15px;
-      border: 2px solid;
-      border-color: var(--title-color);
       color: var(--title-color);
       letter-spacing: 10px;
       display: inline-block;
       text-transform: uppercase;
+      border: 2px solid;
+      border-color: var(--title-color);
+      padding: 5px 0 5px 10px;
+    }
+
+    .near {
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    .city {
+      color: #f94877
     }
   </style>
 `;

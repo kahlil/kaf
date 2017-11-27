@@ -25,6 +25,12 @@ export const CSS = html`
       color: var(--title-color);
     }
 
+    h2 a {
+      display: block;
+      color: var(--title-color);
+      text-decoration: none;
+    }
+
     h3 {
       margin: 1rem;
     }
