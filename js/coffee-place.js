@@ -9,7 +9,7 @@ export class CoffeePlace extends LitElement {
 
 			<div>
 				<h2>${this.state.name}</h2>
-				<p>
+				<p class="rating">
 					<img src="/img/f.png" height="20" class="fs-logo"> ${this.state.rating}
 				</p>
 				<div class="tip">

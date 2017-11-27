@@ -33,9 +33,11 @@ export const CSS = html`
 			margin: 1rem;
 		}
 
+		.rating {
+			font-size: 1.5rem;
+		}
+
 		.fs-logo {
-			position: relative;
-			bottom: -2px;
 			margin-right: 2px;
 		}
 
@@ -44,7 +46,7 @@ export const CSS = html`
 		}
 
 		.tip {
-
+			line-height: 1.3rem;
 		}
 	</style>
 `;

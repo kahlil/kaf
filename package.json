@@ -4,20 +4,41 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve . --open & npm run livereload",
-    "livereload": "livereload \"css, js, index.html\""
+    "start": "run-p serve livereload",
+    "serve": "serve . --open",
+    "serve:prod": "serve dist --open",
+    "livereload": "livereload \"css, js, index.html\"",
+    "prod:js": "rollup --config --sourcemaps",
+    "prod:css":
+      "postcss -u postcss-import postcss-cssnext postcss-clean --no-map css/main.css -o dist/css/styles.min.css",
+    "prod:html": "cpy index-prod.html dist --rename=\"index.html\"",
+    "prod:img": "cpy img/* dist/img",
+    "clean": "rimraf dist",
+    "prod": "npm-run-all clean --parallel prod:*"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "chokidar-cli": "^1.2.0",
     "livereload": "^0.6.3",
     "prettier": "^1.8.2",
-    "serve": "^6.4.1"
+    "serve": "^6.4.1",
+    "postcss": "^6.0.14",
+    "postcss-clean": "^1.1.0",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^11.0.0",
+    "rollup": "^0.52.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
   },
   "dependencies": {
     "basscss": "^8.0.3",
+    "cpy-cli": "^1.0.1",
     "lit-html": "^0.7.1",
-    "normalize.css": "^7.0.0"
+    "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.1.2",
+    "rimraf": "^2.6.2"
   }
 }
