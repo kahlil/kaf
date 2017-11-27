@@ -22,19 +22,19 @@ export class KafApp extends LitElement {
 
   render() {
     return html`
-			${CSS}
+      ${CSS}
 
-    	<header>
-				<h1>kaf</h1>
-			</header>
+      <header>
+        <h1>kaf</h1>
+      </header>
 
-			<div class="coffee-places-list">
-				${this.state.places.map(place => {
+      <div class="coffee-places-list">
+        ${this.state.places.map(place => {
           return html`
-						<coffee-place state=${place}></coffee-place>
-					`;
+            <coffee-place state=${place}></coffee-place>
+          `;
         })}
-			</div>
+      </div>
     `;
   }
 }
