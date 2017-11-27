@@ -1,5 +1,5 @@
 import { defineCustomElement } from './util/define-custom-element.js';
-import { TastybeansApp } from './tastybeans-app.js';
+import { KafApp } from './kaf-app.js';
 import { CoffeePlace } from './coffee-place.js';
 
-[CoffeePlace, TastybeansApp].forEach(defineCustomElement);
+[CoffeePlace, KafApp].forEach(defineCustomElement);
