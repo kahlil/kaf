@@ -5,9 +5,8 @@ import { CSS } from './kaff-app.css.js';
 export class KafApp extends LitElement {
   async connectedCallback() {
     const placesData = await this.getPlaces();
-    console.log(placesData);
     this.state = {
-      places: placesData.map(place => ({
+      places: placesData.filter(place => place.venue.rating >= 7.0).map(place => ({
         name: place.venue.name,
         rating: place.venue.rating,
         tip: place.tips ? place.tips[0].text : undefined,
@@ -28,6 +27,7 @@ export class KafApp extends LitElement {
     	<header>
 				<h1>kaf</h1>
 			</header>
+
 			<div class="coffee-places-list">
 				${this.state.places.map(place => {
           return html`

@@ -7,16 +7,22 @@ export const CSS = html`
 			padding: 0;
 			background-color: #efefef;
 			width: 250px;
+			flex-basis: 250px;
+			flex-grow: 1;
+			border: 1px solid;
+			border-color: var(--title-color);
 		}
 
 		h2 {
 			text-transform: uppercase;
 			letter-spacing: 2px;
-			border: 2px solid #333;
+			border-bottom: 1px solid;
+			border-color: var(--title-color);
 			background-color: white;
 			padding: 5px;
 			margin-top: 0;
 			font-size: 1.2rem;
+			color: var(--title-color);
 		}
 
 		h3 {
@@ -25,6 +31,20 @@ export const CSS = html`
 
 		p {
 			margin: 1rem;
+		}
+
+		.fs-logo {
+			position: relative;
+			bottom: -2px;
+			margin-right: 2px;
+		}
+
+		.tip, .tip-title {
+			font-size: .9rem;
+		}
+
+		.tip {
+
 		}
 	</style>
 `;

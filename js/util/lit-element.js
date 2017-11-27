@@ -19,6 +19,17 @@ export class LitElement extends HTMLElement {
     this.invalidate();
   }
 
+  // Batch render calls.
+  invalidate() {
+    if (!this.needsRender) {
+      this.needsRender = true;
+      Promise.resolve().then(() => {
+        this.needsRender = false;
+        render(this.render(), this.shadowRoot);
+      });
+    }
+  }
+
   dispatch(action, detail) {
     // prettier-ignore
     this.dispatchEvent(
@@ -31,16 +42,5 @@ export class LitElement extends HTMLElement {
         },
       )
     );
-  }
-
-  // Batch render calls.
-  invalidate() {
-    if (!this.needsRender) {
-      this.needsRender = true;
-      Promise.resolve().then(() => {
-        this.needsRender = false;
-        render(this.render(), this.shadowRoot);
-      });
-    }
   }
 }
