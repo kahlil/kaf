@@ -22,7 +22,7 @@ export class CoffeePlace extends LitElement {
         <p>
           <a href="${foursquareUrl}" class="details-link">details</a>
           
-          <a href="${this.getMapsLink(state.longitude, state.latitude)}" class="maps-link">directions</a>
+          <a href="${this.getMapsLink(state.latitude, state.longitude)}" class="maps-link">directions</a>
         </p>
         <div class="tip">
           <h3 class="tip-title">What People Are Saying:</h3>
