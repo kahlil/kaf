@@ -1,5 +1,6 @@
 @import '../node_modules/normalize.css/normalize.css';
 @import '../node_modules/basscss/css/basscss.min.css';
+@import './variables.css';
 
 html {
   font-size: 18px;

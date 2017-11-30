@@ -1,36 +1,41 @@
-class TastybeansApi {
-  async getCurrentLocation(options) {
-    return new Promise((resolve, reject) => {
-      navigator.geolocation.getCurrentPosition(
-        resolve,
-        ({ code, message }) => reject(Object.assign(new Error(message), { name: 'PositionError', code })),
-        options,
-      );
-    });
-  }
+import { foursquareEndpoint } from './foursquare-endpoint.js';
+import { dispatch } from './dispatch.js';
+import { getCurrentLocation } from './get-current-location.js';
 
+class TastybeansApi {
   async getPlaces() {
     let geo;
+    // try {
+    //   geo = await getCurrentLocation({
+    //     enableHighAccuracy: true,
+    //     timeout: 5000,
+    //     maximumAge: 0,
+    //   });
+
+    //   const response = await fetch(foursquareEndpoint(geo.coords.latitude, geo.coords.longitude));
+    //   const data = await response.json();
+    //   return data.response.groups[0].items;
+    // } catch (e) {
+    //   if (e.name == 'PositionError') {
+    //     console.log(e.message + '. code = ' + e.code);
+    //   }
+    // }
+
     try {
-      geo = await this.getCurrentLocation({
-        enableHighAccuracy: true,
-        timeout: 5000,
-        maximumAge: 0,
+      const response = await fetch('/data.json').then(function(response) {
+        if (response.ok) {
+          return response;
+        }
+        dispatch('NETWORK_ERROR', `Network response not OK, status: ${response.status}`);
+        throw new Error(`Network response not OK, status: ${response.status}`);
       });
-
-      return fetch(
-        `https://api.foursquare.com/v2/venues/explore?v=20131016&ll=${geo.coords.latitude}%2C${
-          geo.coords.longitude
-        }&section=coffee&novelty=new&client_id=TQ00OORMFQF5LTW4DVXYW2XGMKWOYTHZEQNM4JLOQMJ35WVB&client_secret=IT33HI0JBAYWADFWIVKGU4XF5EBEP54G2AUMZOKBOI52II1G`,
-        // '/data.json',
-      );
+      const data = await response.json();
+      return data.response.groups[0].items;
     } catch (e) {
-      if (e.name == 'PositionError') {
-        console.log(e.message + '. code = ' + e.code);
-      }
+      console.log('api error', e);
+      dispatch('NETWORK_ERROR', e);
+      return Promise.reject(e);
     }
-
-    // return fetch('/data.json');
   }
 }
 

@@ -27,12 +27,18 @@ export const CSS = html`
     }
 
     .near {
-      padding: 0 1rem;
+      padding: 1rem;
       text-align: center;
     }
 
     .city {
-      color: #f94877
+      color: var(--highlight-color);
+    }
+
+    .loading {
+      padding: 1rem;
+      text-align: center;
+      flex: 1;
     }
   </style>
 `;

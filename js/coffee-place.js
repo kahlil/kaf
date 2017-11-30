@@ -2,17 +2,27 @@ import { LitElement, html } from './util/lit-element.js';
 import { CSS } from './coffee-place.css.js';
 
 export class CoffeePlace extends LitElement {
-  render() {
-    const tipHtml = this.state.tip ? html`<p>${this.state.tip}</p>` : null;
+  getMapsLink(lat, lng) {
+    return `http://maps.apple.com?daddr=${lat},${lng}`;
+  }
+
+  render(state) {
+    const tipHtml = state.tip ? html`<p>${state.tip}</p>` : null;
+    const foursquareUrl = `http://foursquare.com/v/${state.venueId}`;
     return html`
       ${CSS}
 
       <div>
         <h2>
-          <a href="${this.state.url}">${this.state.name}</a>
+          <a href="${this.state.url || foursquareUrl}">${state.name}</a>
         </h2>
         <p class="rating">
-          <img src="/img/f.png" height="20" class="fs-logo"> ${this.state.rating}
+          <img src="/img/f.png" height="20" class="fs-logo"> ${state.rating}
+        </p>
+        <p>
+          <a href="${foursquareUrl}" class="details-link">details</a>
+          
+          <a href="${this.getMapsLink(state.longitude, state.latitude)}" class="maps-link">directions</a>
         </p>
         <div class="tip">
           <h3 class="tip-title">What People Are Saying:</h3>

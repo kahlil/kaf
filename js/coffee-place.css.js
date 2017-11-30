@@ -39,6 +39,15 @@ export const CSS = html`
       margin: 1rem;
     }
 
+    a {
+      color: var(--highlight-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     .rating {
       font-size: 1.5rem;
     }
@@ -48,11 +57,25 @@ export const CSS = html`
     }
 
     .tip, .tip-title {
-      font-size: .9rem;
+      font-size: 1rem;
     }
 
     .tip {
       line-height: 1.3rem;
+    }
+
+    .details-link,
+    .maps-link {
+      font-size: 1rem;
+    }
+
+    .details-link {
+      display: inline-block;
+      padding-right: 1rem;
+    }
+
+    .maps-link {
+
     }
   </style>
 `;

@@ -1,12 +1,14 @@
 import { kebabCase } from './kebab-case.js';
 import { render } from '../../node_modules/lit-html/lib/lit-extended.js';
 export { html } from '../../node_modules/lit-html/lib/lit-extended.js';
+export { until } from '../../node_modules/lit-html/lib/until.js';
 
 // A super chill custom element subclass with
 // some nifty default behavior.
 export class LitElement extends HTMLElement {
   constructor() {
     super();
+    this.state = {};
     this.attachShadow({ mode: 'open' });
   }
 
@@ -25,7 +27,7 @@ export class LitElement extends HTMLElement {
       this.needsRender = true;
       Promise.resolve().then(() => {
         this.needsRender = false;
-        render(this.render(), this.shadowRoot);
+        render(this.render(this.state), this.shadowRoot);
       });
     }
   }
