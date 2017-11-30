@@ -2,7 +2,7 @@ import { LitElement, html } from './util/lit-element.js';
 import { CSS } from './coffee-place.css.js';
 
 export class CoffeePlace extends LitElement {
-  getMapsLink(lat, lng) {
+  mapsLink(lat, lng) {
     return `http://maps.apple.com?daddr=${lat},${lng}`;
   }
 
@@ -21,8 +21,10 @@ export class CoffeePlace extends LitElement {
         </p>
         <p>
           <a href="${foursquareUrl}" class="details-link">details</a>
-          
-          <a href="${this.getMapsLink(state.latitude, state.longitude)}" class="maps-link">directions</a>
+          <a href="${this.mapsLink(state.latitude, state.longitude)}" class="maps-link">directions</a>
+        </p>
+        <p>
+          ${state.distance}m
         </p>
         <div class="tip">
           <h3 class="tip-title">What People Are Saying:</h3>

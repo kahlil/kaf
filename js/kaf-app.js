@@ -9,12 +9,15 @@ export class KafApp extends LitElement {
     this.dispatch('INIT');
 
     // Default state.
-    this.state.loading = true;
-    this.state.places = [];
-    this.state.city = '';
+    this.state = {
+      loading: true,
+      places: [],
+      city: '',
+    };
 
     const placesData = await api.getPlaces();
     this.dispatch('DATA_RECEIVED');
+    console.log('DATA_RECEIVED');
     console.timeEnd('yeh');
     this.state = {
       places: this.normalizePlacesData(placesData),
@@ -36,6 +39,7 @@ export class KafApp extends LitElement {
       venueId: place.venue.id,
       latitude: place.venue.location.lat,
       longitude: place.venue.location.lng,
+      distance: place.venue.location.distance,
       tip: place.tips ? place.tips[0].text : undefined,
     }));
   }

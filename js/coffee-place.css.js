@@ -62,9 +62,5 @@ export const CSS = html`
       display: inline-block;
       padding-right: 1rem;
     }
-
-    .maps-link {
-
-    }
   </style>
 `;
