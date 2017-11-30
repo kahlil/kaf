@@ -8,15 +8,16 @@
     "clean": "rimraf dist",
     "serve": "serve . --open",
     "serve:dist": "serve dist --open",
-    "serve:prod": "run-s prod serve:dist",
+    "start:prod": "run-s prod serve:dist",
     "livereload": "livereload \"css, js, index.html\"",
     "prod:css":
       "postcss -u postcss-import postcss-cssnext postcss-clean --no-map css/main.css -o dist/css/styles.min.css",
-    "prod:js": "rollup --config --sourcemaps",
+    "prod:js": "rollup --config",
     "prod:html": "cpy index-prod.html dist --rename=\"index.html\"",
     "prod:img": "cpy img/* dist/img",
     "prod:cpy-webcomponents-polyfills": "cpy js/webcomponents-polyfills/* dist/js/webcomponents-polyfills",
-    "prod": "npm-run-all clean --parallel prod:*"
+    "build:prod": "run-p prod:*",
+    "prod": "run-s clean build:prod"
   },
   "keywords": [],
   "author": "",
@@ -24,16 +25,18 @@
   "devDependencies": {
     "chokidar-cli": "^1.2.0",
     "livereload": "^0.6.3",
-    "prettier": "^1.8.2",
-    "serve": "^6.4.1",
     "postcss": "^6.0.14",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^4.1.1",
     "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
+    "prettier": "^1.8.2",
     "rollup": "^0.52.0",
     "rollup-plugin-commonjs": "^8.2.6",
-    "rollup-plugin-node-resolve": "^3.0.0"
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
+    "serve": "^6.4.1",
+    "uglify-es": "^3.2.0"
   },
   "dependencies": {
     "basscss": "^8.0.3",
