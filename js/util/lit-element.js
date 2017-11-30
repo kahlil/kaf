@@ -1,5 +1,6 @@
 import { kebabCase } from './kebab-case.js';
 import { render } from '../../node_modules/lit-html/lib/lit-extended.js';
+import { dispatch } from './dispatch.js';
 export { html } from '../../node_modules/lit-html/lib/lit-extended.js';
 export { until } from '../../node_modules/lit-html/lib/until.js';
 
@@ -33,16 +34,6 @@ export class LitElement extends HTMLElement {
   }
 
   dispatch(action, detail) {
-    // prettier-ignore
-    this.dispatchEvent(
-      new CustomEvent(
-        action,
-        {
-          bubbles: true,
-          composed: true,
-          detail,
-        },
-      )
-    );
+    dispatch(action, detail);
   }
 }

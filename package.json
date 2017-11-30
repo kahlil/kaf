@@ -5,15 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "run-p serve livereload",
+    "clean": "rimraf dist",
     "serve": "serve . --open",
-    "serve:prod": "serve dist --open",
+    "serve:dist": "serve dist --open",
+    "serve:prod": "run-s prod serve:dist",
     "livereload": "livereload \"css, js, index.html\"",
-    "prod:js": "rollup --config --sourcemaps",
     "prod:css":
       "postcss -u postcss-import postcss-cssnext postcss-clean --no-map css/main.css -o dist/css/styles.min.css",
+    "prod:js": "rollup --config --sourcemaps",
     "prod:html": "cpy index-prod.html dist --rename=\"index.html\"",
     "prod:img": "cpy img/* dist/img",
-    "clean": "rimraf dist",
+    "prod:cpy-webcomponents-polyfills": "cpy js/webcomponents-polyfills/* dist/js/webcomponents-polyfills",
     "prod": "npm-run-all clean --parallel prod:*"
   },
   "keywords": [],

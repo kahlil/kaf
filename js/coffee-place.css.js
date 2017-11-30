@@ -2,17 +2,6 @@ import { html } from './util/lit-element.js';
 
 export const CSS = html`
   <style>
-    :host {
-      margin: 2rem;
-      padding: 0;
-      background-color: #efefef;
-      width: 250px;
-      flex-basis: 250px;
-      flex-grow: 1;
-      border: 1px solid;
-      border-color: var(--title-color);
-    }
-
     h2 {
       text-transform: uppercase;
       letter-spacing: 2px;
