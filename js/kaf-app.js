@@ -49,7 +49,6 @@ export class KafApp extends LitElement {
   }
 
   render(state) {
-    console.log(state);
     return html`
       ${CSS}
 
