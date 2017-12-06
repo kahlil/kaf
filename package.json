@@ -10,8 +10,7 @@
     "serve:dist": "serve dist --open",
     "start:prod": "run-s prod serve:dist",
     "livereload": "livereload \"css, js, index.html\"",
-    "prod:css":
-      "postcss -u postcss-import postcss-cssnext postcss-clean --no-map css/main.css -o dist/css/styles.min.css",
+    "prod:css": "postcss -u postcss-import postcss-cssnext postcss-clean --no-map css/main.css -o dist/css/styles.min.css",
     "prod:js": "rollup --config",
     "prod:html": "cpy index-prod.html dist --rename=\"index.html\"",
     "prod:img": "cpy img/* dist/img",
@@ -41,6 +40,7 @@
   "dependencies": {
     "basscss": "^8.0.3",
     "cpy-cli": "^1.0.1",
+    "just-camel-case": "^3.0.0",
     "lit-html": "^0.7.1",
     "normalize.css": "^7.0.0",
     "npm-run-all": "^4.1.2",

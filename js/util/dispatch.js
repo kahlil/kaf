@@ -1,10 +1,11 @@
-const app = document.querySelector('kaf-app');
-export const dispatch = (action, detail) => {
+import { app } from './app-ref.js';
+
+export const dispatch = (action, detail, error = false) => {
   app.dispatchEvent(
     new CustomEvent(action, {
       bubbles: true,
       composed: true,
-      detail,
+      detail: { type: action, data: detail, error },
     }),
   );
 };

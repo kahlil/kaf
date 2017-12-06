@@ -1,47 +1,43 @@
 import { LitElement, html, until } from './util/lit-element.js';
 import { api } from './util/kaf-api.js';
 import { CSS } from './kaff-app.css.js';
+import { camelCase } from './util/camel-case.js';
+import * as reducers from './util/reducers.js';
+import { ACTIONS } from './util/actions.js';
+
+const { INIT, RECEIVE_VENUES, GEOLOCATION_FAILED, NETWORK_ERROR } = ACTIONS;
 
 export class KafApp extends LitElement {
   async connectedCallback() {
-    this.setEventListeners();
-    console.time('yeh');
-    this.dispatch('INIT');
-
     // Default state.
     this.state = {
-      loading: true,
+      locating: false,
+      loading: false,
       places: [],
       city: '',
+      geolocationError: false,
     };
-
-    const placesData = await api.getPlaces();
-    this.dispatch('DATA_RECEIVED');
-    console.log('DATA_RECEIVED');
-    console.timeEnd('yeh');
-    this.state = {
-      places: this.normalizePlacesData(placesData),
-      city: placesData[0].venue.location.city,
-      loading: false,
-    };
+    this.setReducers();
+    this.dispatch(INIT);
   }
 
-  setEventListeners() {
-    this.addEventListener('INIT', e => console.log('listened to event', e));
-    this.addEventListener('NETWORK_ERROR', e => console.log('listened to event', e));
+  setReducers() {
+    Object.values(ACTIONS).forEach(ACTION => {
+      const action = camelCase(ACTION.toLowerCase());
+      if (reducers[action]) {
+        this.on(ACTION, e => {
+          this.state = reducers[action](e.detail, this.state);
+        });
+      }
+    });
   }
 
-  normalizePlacesData(placesData) {
-    return placesData.filter(place => place.venue.rating >= 7.0).map(place => ({
-      name: place.venue.name,
-      rating: place.venue.rating,
-      url: place.venue.url,
-      venueId: place.venue.id,
-      latitude: place.venue.location.lat,
-      longitude: place.venue.location.lng,
-      distance: place.venue.location.distance,
-      tip: place.tips ? place.tips[0].text : undefined,
-    }));
+  getLocatingHtml() {
+    return html`
+      <div class="loading">
+        Fetching your location...
+      </div>
+    `;
   }
 
   getLoadingHtml() {
@@ -52,7 +48,8 @@ export class KafApp extends LitElement {
     `;
   }
 
-  render() {
+  render(state) {
+    console.log(state);
     return html`
       ${CSS}
 
@@ -61,16 +58,23 @@ export class KafApp extends LitElement {
       </header>
 
       ${
-        !this.state.loading
+        state.places.length > 0
           ? html`<div class="near">
-            Here are some nice coffee places in <span class="city">${this.state.city}</span> near you:
+            Here are some nice coffee places in <span class="city">${state.city}</span> near you:
           </div>`
+          : ''
+      }
+
+      ${
+        state.geolocationError
+          ? html`<div class="warning"> Unfortunately we can't seem to find your location.</div>`
           : ''
       }
     
       <div class="coffee-places-list">
-        ${this.state.loading ? this.getLoadingHtml() : ''}
-        ${this.state.places.map(place => {
+        ${state.locating ? this.getLocatingHtml() : ''}
+        ${state.loading ? this.getLoadingHtml() : ''}
+        ${state.places.map(place => {
           return html`
             <coffee-place state=${place}></coffee-place>
           `;

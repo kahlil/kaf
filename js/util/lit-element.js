@@ -11,6 +11,7 @@ export class LitElement extends HTMLElement {
     super();
     this.state = {};
     this.attachShadow({ mode: 'open' });
+    this.on = this.addEventListener;
   }
 
   get state() {
