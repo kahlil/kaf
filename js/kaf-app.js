@@ -5,7 +5,7 @@ import { camelCase } from './util/camel-case.js';
 import * as reducers from './util/reducers.js';
 import { ACTIONS } from './util/actions.js';
 
-const { INIT, RECEIVE_VENUES, GEOLOCATION_FAILED, NETWORK_ERROR } = ACTIONS;
+const { INIT } = ACTIONS;
 
 export class KafApp extends LitElement {
   async connectedCallback() {
