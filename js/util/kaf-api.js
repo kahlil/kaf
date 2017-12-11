@@ -16,17 +16,17 @@ class TastybeansApi {
   async getPlaces() {
     let geo;
     try {
-      dispatch(FETCH_GEODATA);
-      geo = await getCurrentLocation({
-        enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 0,
-      });
-      dispatch(RECEIVE_GEODATA);
+      // dispatch(FETCH_GEODATA);
+      // geo = await getCurrentLocation({
+      //   enableHighAccuracy: true,
+      //   timeout: 10000,
+      //   maximumAge: 0,
+      // });
+      // dispatch(RECEIVE_GEODATA);
 
-      dispatch(FETCH_VENUES);
-      const response = await fetch(foursquareEndpoint(geo.coords.latitude, geo.coords.longitude));
-      // const response = await fetch('/data.json');
+      // dispatch(FETCH_VENUES);
+      // const response = await fetch(foursquareEndpoint(geo.coords.latitude, geo.coords.longitude));
+      const response = await fetch('/data.json');
       const data = await response.json();
       dispatch(RECEIVE_VENUES, data.response.groups[0].items);
     } catch (e) {

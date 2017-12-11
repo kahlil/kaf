@@ -38,6 +38,7 @@
     "uglify-es": "^3.2.0"
   },
   "dependencies": {
+    "auth0-js": "^8.12.0",
     "basscss": "^8.0.3",
     "cpy-cli": "^1.0.1",
     "just-camel-case": "^3.0.0",
