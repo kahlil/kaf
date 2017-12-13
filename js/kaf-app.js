@@ -1,6 +1,8 @@
 import { LitElement, html, until } from './util/lit-element.js';
 import { router } from './util/router.js';
+import { routeComponents } from './util/route-components.js';
 import { api } from './util/kaf-api.js';
+import { setReducers } from './util/set-reducers.js';
 import { CSS } from './kaff-app.css.js';
 import { camelCase } from './util/camel-case.js';
 import * as reducers from './util/reducers.js';
@@ -22,8 +24,6 @@ export class KafApp extends LitElement {
         geolocationError: false,
       },
     };
-
-    this.setReducers();
   }
 
   get route() {
@@ -39,26 +39,9 @@ export class KafApp extends LitElement {
     this.dispatch(INIT);
 
     router
-      .on('/about', () => (this.route = state => html`<div>About Page</div>`))
-      .on('*', () => {
-        this.route = state => html`
-          <coffee-place-list state=${state.coffeePlaceList}></coffee-place-list>
-        `;
-      })
+      .on('/about', () => (this.route = routeComponents['/about']))
+      .on('*', () => (this.route = routeComponents['*']))
       .resolve();
-  }
-
-  setReducers() {
-    Object.values(ACTIONS).forEach(ACTION => {
-      const action = camelCase(ACTION.toLowerCase());
-      if (reducers[action]) {
-        this.on(ACTION, e => {
-          this.state = Object.assign({}, this.state, {
-            coffeePlaceList: reducers[action](e.detail, this.state.coffeePlaceList),
-          });
-        });
-      }
-    });
   }
 
   render(state) {

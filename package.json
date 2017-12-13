@@ -6,8 +6,8 @@
   "scripts": {
     "start": "run-p serve livereload",
     "clean": "rimraf dist",
-    "serve": "serve . --open",
-    "serve:dist": "serve dist --open",
+    "serve": "serve . --open --single",
+    "serve:dist": "serve dist --open --single",
     "start:prod": "run-s prod serve:dist",
     "livereload": "livereload \"css, js, index.html\"",
     "prod:css": "postcss -u postcss-import postcss-cssnext postcss-clean --no-map css/main.css -o dist/css/styles.min.css",
